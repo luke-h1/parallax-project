@@ -43,23 +43,24 @@ header {
     left: 0 ; 
     transform: translateZ(-1px) scale(1.5) ; 
     background-size: 100% ; 
-    z-index: -1 ;
+    z-index: -1 ; 
+    background: no-repeat ; 
 }   
 
 
 .static { 
-    background: red ; 
+    background:  #fff ; 
 } 
 
 
 .bg1::after { 
-    background-image: url(/static/cup.jpg) 
-
+    background-image: url(/static/chair.jpg) ; 
+ 
 }
 
 
 .bg2::after { 
-    background-image: url(/static/shop.jpg)
+    background-image: url(/static/bar.jpg)
 }
 
 
@@ -88,7 +89,7 @@ header {
 
 
 .container { 
-    width: 90% ; 
+    width: 100% ; 
     max-width: 900px ; 
     margin: 0 auto ; 
 }
